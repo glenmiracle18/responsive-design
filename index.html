@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Design</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="http://medium.com/@glenmiracle18/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-medium"></i>
+					</span>
+				</a>
+				<a href="http://github.com/glenmiracle18" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="https://twitter.com/glenmiracle18" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-twitter"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#education">Education</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/headshot.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+                    Hello there, Welcome to my portfolio website. I am called Glen Miracle and I am a modern web developer. I like building software
+                    for the web. With my 2.5 years of experience in the field, I have had the chance to work with big brands and amazing clients.
+                    Find out more below!
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+                                    <h2 class="proj-title"><a target="_blank" href="http://www.eduford.com">Eduford</a></h2>
+									<figure class="image project-figure">
+										<img src="assets/img/eduford2.png" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+                                        Eduford is a university website I built for a university in Portland that offers sports and
+                                        Engineering courses and offer good scholarships to underprivilledged students from Africa.
+                                        Click the tile to check it out!
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+                                    <h2 class="proj-title"><a target="_blank" href="http://www.wrizzleshop.com">Wrizzle Shop</a></h2>
+									<figure class="image project-figure">
+										<img src="assets/img/wrizzle2.png" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+                                        Wrizzleshop is an e-commerce website I built for a client in the UK. The website is built with
+                                        NextJs, Tailwind Css and Strapi.
+                                        This project was one of the most complicated projects I have built so far.
+                                        Click the title to check it out!
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+
+                    <!-- project 3 -->
+                    <div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+                                    <h2 class="proj-title"><a target="_blank" href="/">Bizz</a></h2>
+									<figure class="image project-figure">
+										<img src="assets/img/My SaaS business.png" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+                                        I designed the systems and architechture for a SaaS business that I am currently working on.
+                                        The business is called Bizz and it is a business management software for small businesses.
+                                        The software is built with NextJs, Tailwind Css, Superbase, MYSQL and Strapi.
+
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+        <!-- Education -->
+		<section id="education" class="section section-1">
+            <div class="has-text-centered">					
+                <h3 class="title is-3">Education</h3>
+            </div>
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="edu-avatar" src="assets/img/logo.png">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+                    I'm currently a student at the African Leadership University, persuing a degree in Software Engineering.
+                    I have also taken a few courses on Udemy and Coursera to improve my skills in web development.
+                    I will be graduating in 2026 with my bachelors degree in Software Engineering and be ready for the job market.
+				</p>
+			</div>
+		</section>
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://ca.linkedin.com/in/glenmiracle"><img class="social-img" src="assets/img/linkedin.png"></a>
+					</div>
+                    <div class="column is-6 has-text-centered">
+                        <a target="_blank" href="https://www.instagram.com/glen_uncommon"><img class="social-img" src="assets/img/Instagram_icon.png"></a>
+                    </div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.facebook.com/"><img class="social-img" src="assets/img/facebook.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="http://www.hassanali.me/about">Glen Miracle</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
